@@ -9,44 +9,50 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <title>Contact</title>
 </head>
-<body>
-    <nav class ="navbar navbar-default">
-        <div class="container-fluid">
-        <div class="navbar-header">
-            <header>
-                <h2>Cat McMillen</h2>
-            </header>
-        </div>
-        <div>
-            <ul class="nav navbar-nav">
-                <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                 <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-        </div>
-    </nav>
-    <br>
-    <br>
+<body style="height:1500px">
+        <nav class ="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+            <div class="navbar-header">
+                <header>
+                    <h2 class="navbar-brand">Cat McMillen</h2>
+                </header>
+            </div>
+            <div>
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <br>
+        <br>
+        <br>
+        <br>
     <section class="container"> 
             <div>
             <h1>Contact</h1>
             </div>
             <div>
             <form action="/action_page.php">
-            <br>Name<br>
-            <input class="input" type="text" name="name" value="Jan Smith">
+            <div class="form-group">
+            <br><label for="name">Name</label><br>
+            <input class="form-control" type="name" id="name" name="name" placeholder="Enter full name">
+            </div>
             <br>
-            <br>Email<br>
-            <input class="input" type="text" name="email" value="jansmith@gmail.com">
-            <br>
-            <br>Message<br>
-            <input class="message" type="text" name="message" value="">
+            <div class="form-group">
+            <br><label for="email">Email</label><br>
+            <input class="form-control" type="name" name="email" id="email" placeholder="Enter email">
+            <br><br>
+            <div class="form-group">
+            <br><label for="message">Message</label><br>
+            <input class="form-control" type="text" name="message" id="message" placeholder="Enter message">
+            </div>
             <br><br>
             <input class="submit" type="submit" value="Submit">
             </form>
         </section>
-        </div>
         <br>
         <div class="footer-box">
         <footer>
